@@ -1,0 +1,20 @@
+{
+  "domain": "cez_distribuce_pnd",
+  "name": "CEZ Distribuce PND",
+  "codeowners": [
+    "@aka-raccoon"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.github.com/aka-raccoon/hass-cez-distribuce-pnd",
+  "issue_tracker": "https://github.com/aka-raccoon/hass-cez-distribuce-pnd/issues",
+  "homekit": {},
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": [
+    "cez-distribuce-data-fetcher==0.0.1"
+  ],
+  "ssdp": [],
+  "version": "0.0.1",
+  "zeroconf": []
+}

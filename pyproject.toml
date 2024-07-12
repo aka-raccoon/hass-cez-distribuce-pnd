@@ -1,0 +1,27 @@
+[project]
+name = "hass-cez-distribuce-pnd"
+version = "0.0.1"
+description = "Imports data from CEZ Distribuce PND to HASS energy dashboard"
+authors = [
+    { name = "aka-raccoon", email = "42897550+aka-raccoon@users.noreply.github.com" },
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "homeassistant==2024.6.0",
+    "cez-distribuce-data-fetcher==0.0.1",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hass_cez_distribuce_pnd"]
