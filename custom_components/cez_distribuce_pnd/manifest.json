@@ -12,7 +12,7 @@
   "integration_type": "service",
   "iot_class": "cloud_polling",
   "requirements": [
-    "cez-distribuce-data-fetcher==0.0.1"
+    "cez-distribuce-data-fetcher==0.0.2"
   ],
   "ssdp": [],
   "version": "0.0.1",

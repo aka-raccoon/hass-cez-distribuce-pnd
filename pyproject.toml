@@ -17,7 +17,7 @@ build-backend = "hatchling.build"
 managed = true
 dev-dependencies = [
     "homeassistant==2024.6.0",
-    "cez-distribuce-data-fetcher==0.0.1",
+    "cez-distribuce-data-fetcher==0.0.2",
 ]
 
 [tool.hatch.metadata]
