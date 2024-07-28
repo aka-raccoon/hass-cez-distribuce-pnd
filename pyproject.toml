@@ -24,4 +24,4 @@ dev-dependencies = [
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/hass_cez_distribuce_pnd"]
+packages = ["custom_components/cez_distribuce_pnd"]
